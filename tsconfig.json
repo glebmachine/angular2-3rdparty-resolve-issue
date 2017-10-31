@@ -11,6 +11,11 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "TimelineMax": ["./../node_modules/greensock/src/TimelineMax.js"],
+      "TweenMax": ["./../node_modules/greensock/src/TweenMax.js"],
+      "TweenLite": ["./../node_modules/greensock/src/TweenLite.js"]
+    },
     "lib": [
       "es2017",
       "dom"
